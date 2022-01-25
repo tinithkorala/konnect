@@ -1,0 +1,771 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+:root {
+    --black-32: rgba(0, 0, 0, 0.529);
+    --black-22: rgba(0, 0, 0, 0.6);
+    --black: rgba(0, 0, 0, 1);
+    --azure-radiance: rgba(0, 172, 255, 1);
+    --eerie-black: rgba(24, 24, 24, 1);
+    --log-cabin: rgba(33, 33, 33, 1);
+    --steel-gray: rgba(37, 39, 51, 1);
+    --pickled-bluewood: rgba(46, 59, 82, 1);
+    --tuna: rgba(54, 55, 64, 1);
+    --blue: rgba(55, 81, 255, 1);
+    --royal-blue: rgba(65, 105, 225, 1);
+    --cornflower-blue: rgba(100, 137, 248, 1);
+    --silver-chalice: rgba(175, 175, 175, 1);
+    --celeste: rgba(208, 208, 208, 1);
+    --link-water: rgba(218, 225, 236, 1);
+    --hawkes-blue: rgba(221, 226, 255, 1);
+    --snuff: rgba(223, 224, 235, 1);
+    --athens-gray: rgba(232, 240, 247, 1);
+    --zircon: rgba(244, 247, 252, 1);
+    --black-haze: rgba(246, 246, 246, 1);
+    --white-lilac: rgba(247, 248, 252, 1);
+    --hint-of-red: rgba(249, 249, 249, 1);
+    --romance: rgba(252, 253, 253, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xs: 14px;
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 30px;
+    --font-size-xxxl: 36px;
+    --font-size-xxxxl: 45px;
+    --font-size-xxxxxl: 64px;
+    --font-size-xs2: 12px;
+    --font-size-xxs2: 11px;
+
+    --font-family-poppins: "Poppins";
+    --font-family-poppins-extrabold: "Poppins-ExtraBold";
+    --font-family-poppins-light: "Poppins-Light";
+    --font-family-poppins-medium: "Poppins-Medium";
+    --font-family-poppins-regular: "Poppins-Regular";
+    --font-family-poppins-semibold: "Poppins-SemiBold";
+    --font-family-roboto: "Roboto";
+    --font-family-roboto-regular: "Roboto-Regular";
+}
+
+.border-1px-azure-radiance {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--azure-radiance);
+}
+
+.border-1-5px-snuff {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--snuff);
+}
+
+.roboto-normal-eerie-black-12px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xs2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-light-log-cabin-11px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-poppins-light);
+    font-size: 11px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-light-log-cabin-11px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxs2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-semi-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-semibold);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.border-1px-celeste {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--celeste);
+}
+
+.poppins-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-1-5px-white-lilac {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--white-lilac);
+}
+
+.poppins-bold-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-regular-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-medium-azure-radiance-12px {
+    color: var(--azure-radiance);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xs2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-normal-pickled-bluewood-18px {
+    color: var(--pickled-bluewood);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold-royal-blue-36px {
+    color: var(--royal-blue);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-regular-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-hawkes-blue-16px {
+    color: var(--hawkes-blue);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-extra-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xs);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-regular-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-roboto-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-18px-22 {
+    color: var(--black-22);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-pickled-bluewood-18px {
+    color: var(--pickled-bluewood);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium-log-cabin-16px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-extra-extra-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-extrabold);
+    font-size: var(--font-size-xs);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-medium-log-cabin-16px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-poppins-medium);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-normal-black-18px-32 {
+    color: var(--black-32);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-steel-gray-18px {
+    color: var(--steel-gray);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-steel-gray-18px {
+    color: var(--steel-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-regular-normal-hawkes-blue-16px {
+    color: var(--hawkes-blue);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-silver-chalice-18px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-1px-cornflower-blue {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--cornflower-blue);
+}
+
+.poppins-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-medium-azure-radiance-12px {
+    color: var(--azure-radiance);
+    font-family: var(--font-family-poppins-medium);
+    font-size: var(--font-size-xs2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-bold-royal-blue-30px {
+    color: var(--royal-blue);
+    font-family: var(--font-family-poppins);
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-normal-silver-chalice-18px {
+    color: var(--silver-chalice);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-normal-eerie-black-12px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-roboto-regular);
+    font-size: var(--font-size-xs2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular-normal-black-18px-2 {
+    color: var(--black-32);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semi-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-regular-normal-black-18px-3 {
+    color: var(--black-22);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.landing-page {
+    align-items: flex-start;
+    background-image: url("../../images/landing-page.png");
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.landing-page .flex-col {
+    align-items: center;
+    display: flex;
+    margin-top: 43px;
+    width: 100%;
+}
+
+.landing-page .header {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 28.0px;
+    min-width: 1622px;
+}
+
+.landing-page .konnect {
+    letter-spacing: 0;
+    min-height: 54px;
+    min-width: 176px;
+}
+
+.landing-page .frame-2 {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-left: 109px;
+    min-width: 348px;
+}
+
+.landing-page .our-research-groups {
+    cursor: pointer;
+    letter-spacing: 0;
+    min-height: 30px;
+    min-width: 206px;
+}
+
+.landing-page .our-partners {
+    letter-spacing: 0;
+    margin-left: 41px;
+    min-height: 30px;
+    min-width: 127px;
+}
+
+.landing-page .call-to-action-button {
+    align-items: center;
+    background-color: var(--royal-blue);
+    border-radius: 29.5px;
+    display: flex;
+    height: 54px;
+    margin-left: 723px;
+    min-width: 266px;
+    padding: 0 46px;
+}
+
+.landing-page .go-to-portal {
+    letter-spacing: 0;
+    min-height: 30px;
+    min-width: 119px;
+}
+
+.landing-page .akar-icons-arrow-right-thick {
+    height: 30px;
+    margin-left: 20px;
+    width: 35px;
+}
+
+.landing-page .flex-row {
+    align-items: center;
+    display: flex;
+    margin-right: 65.0px;
+    margin-top: 99px;
+    min-width: 1505px;
+}
+
+.landing-page .text-1 {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 80px;
+    margin-top: 1.0px;
+    min-height: 214px;
+    width: 754px;
+}
+
+.landing-page .ucsc-logo {
+    height: 323px;
+    margin-left: 423px;
+    object-fit: cover;
+    width: 328px;
+}
+
+.landing-page .overlap-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+    min-height: 551px;
+    padding: 31px 176px;
+    width: 100%;
+}
+
+.landing-page .overlap-group3 {
+    align-self: flex-end;
+    height: 82px;
+    margin-right: 24.0px;
+    position: relative;
+    width: 193px;
+}
+
+.landing-page .about-us {
+    left: 0;
+    letter-spacing: 6.00px;
+    line-height: 80px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.landing-page .line-1 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 78px;
+    width: 193px;
+}
+
+.landing-page .text-2 {
+    letter-spacing: 0.36px;
+    line-height: 80px;
+    margin-top: 44px;
+    min-height: 308px;
+    width: 1370px;
+}
+
+.landing-page .overlap-group1 {
+    align-self: flex-start;
+    height: 100px;
+    margin-left: 169px;
+    margin-top: 45px;
+    position: relative;
+    width: 487px;
+}
+
+.landing-page .our-research-groups-1 {
+    left: 10px;
+    letter-spacing: 6.00px;
+    line-height: 80px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.landing-page .line-2 {
+    height: 4px;
+    left: 10px;
+    position: absolute;
+    top: 88px;
+    width: 336px;
+}
+
+.landing-page .frame-9 {
+    align-items: center;
+    display: flex;
+    height: 353px;
+    margin-top: 45px;
+    min-width: 1624px;
+    padding: 0 26.5px;
+}
+
+.landing-page .frame-5 {
+    align-items: center;
+    background-color: var(--hint-of-red);
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px #00000040;
+    display: flex;
+    flex-direction: column;
+    min-height: 335px;
+    padding: 12px 0;
+    width: 317px;
+}
+
+.landing-page .scorelabs-1 {
+    height: 159px;
+    object-fit: cover;
+    width: 180px;
+}
+
+.landing-page .vector-1 {
+    height: 3px;
+    margin-top: 35px;
+    width: 318px;
+}
+
+.landing-page .score {
+    letter-spacing: 0;
+    line-height: 80px;
+    margin-bottom: -1px;
+    margin-top: 35px;
+    min-height: 79px;
+    text-align: center;
+    white-space: nowrap;
+    width: 241px;
+}
+
+.landing-page .frame {
+    align-items: center;
+    background-color: var(--hint-of-red);
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px #00000040;
+    display: flex;
+    flex-direction: column;
+    margin-left: 101px;
+    min-height: 335px;
+    padding: 12px 0;
+    width: 317px;
+}
+
+.landing-page .overlap-group2 {
+    align-items: flex-end;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin-top: 133px;
+    min-height: 509px;
+    padding: 56px 107.0px;
+    width: 100%;
+}
+
+.landing-page .our-partners-1 {
+    letter-spacing: 6.00px;
+    line-height: 80px;
+    margin-right: 11.0px;
+    min-height: 80px;
+    min-width: 292px;
+    white-space: nowrap;
+}
+
+.landing-page .line-3 {
+    height: 4px;
+    margin-top: 7px;
+    width: 276px;
+}
+
+.landing-page .logos {
+    align-items: center;
+    display: flex;
+    margin-right: 103.0px;
+    margin-top: 15px;
+    min-width: 1501px;
+}
+
+.landing-page .image-1 {
+    height: 256px;
+    object-fit: cover;
+    width: 256px;
+}
+
+.landing-page .image-2 {
+    height: 92px;
+    margin-left: 121px;
+    object-fit: cover;
+    width: 366px;
+}
+
+.landing-page .image-3 {
+    height: 114px;
+    margin-left: 121px;
+    object-fit: cover;
+    width: 269px;
+}
+
+.landing-page .image-4 {
+    height: 133px;
+    margin-left: 121px;
+    object-fit: cover;
+    width: 247px;
+}
+
+.landing-page .footer {
+    align-items: center;
+    background-color: var(--cornflower-blue);
+    display: flex;
+    height: 100px;
+    min-width: 100%;
+    padding: 0 368px;
+}
+
+.landing-page .ucsc-logo-1 {
+    height: 92px;
+    object-fit: cover;
+    width: 92px;
+}
+
+.landing-page .all-rights-reserved {
+    letter-spacing: 0;
+    margin-left: 818px;
+    min-height: 36px;
+    min-width: 236px;
+    text-align: center;
+}
+
+.landing-page .call-to-action-button-1 {
+    align-items: center;
+    background-color: var(--royal-blue);
+    border-radius: 29.5px;
+    display: flex;
+    height: 54px;
+    margin-left: 1356px;
+    margin-top: 43px;
+    min-width: 266px;
+    padding: 0 46px;
+    transition: all .5s ease-in-out 0s;
+}
+
+.call-to-action-button:hover{
+    transform: scale(1.1);
+}
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}

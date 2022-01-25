@@ -1,0 +1,62 @@
+.card-container {
+    margin: 20px;
+}
+
+.is-invalid {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.error-field {
+    border: solid 1px red !important;
+}
+
+.form-control {
+    display: block;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-con {
+    margin: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1rem;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.current {
+    margin: 20px;
+    display: none;
+}
+
+.user-card-details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-card-details p {
+    margin-top: 20px;
+}
+
+.user-card {
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 30%;
+    margin: 30px;
+}

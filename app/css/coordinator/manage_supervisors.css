@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-area {
+  height: 20%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  /* border-bottom: 2px solid lightgrey; */
+}
+
+.select-area h3 {
+
+}
+
+select {
+   appearance:none;
+   border: 2px solid lightgrey;
+   border-radius: 4px;
+   background: #fff;
+   flex: 1;
+   padding: 6px 0 6px 6px;
+   cursor:pointer;
+   font-family: inherit;
+   color: grey;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 40%;
+   height: 2.5em;
+   line-height: 3;
+   background: #fff;
+   overflow: hidden;
+   border-radius: 4px;
+
+}
+.select::after {
+   font-family: "Material Icons";
+   content: "\e5c5";
+   position: absolute;
+   border: 2px solid lightgrey;
+   color: lightgrey;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+   width: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+}
+.select:hover::after {
+   color: black;
+}
+
+.current {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title h3 {
+  margin-top: 2%;
+}
+
+.change {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

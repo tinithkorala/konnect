@@ -1,0 +1,136 @@
+.card {
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+	max-width: 350px;
+	padding: 10px;
+	overflow: hidden;
+	background: #f5f5f5;
+	border-radius: 10px;
+	margin: auto auto auto 0;
+}
+
+.card .container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr fit-content(20%) 1fr;
+}
+
+.card .container .row1col1 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 1/2;
+	grid-column: 1/2;
+}
+
+.card .container .row1col1 p {
+	font-weight: bolder;
+}
+
+.card .container .row1col2 {
+	justify-self: self-end;
+	align-self: center;
+	grid-row: 1/2;
+	grid-column: 2/3;
+}
+
+.card .container .row1col2 span {
+	color: red;
+	font-size: 200%;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.card .container .row1col2 span:hover {
+	color: darkred;
+}
+
+.card .container .row2col1 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 2/3;
+	grid-column: 1/2;
+}
+
+.card .container .row2col2 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
+
+.card .container .row2col2 p {
+	font-weight: bold;
+	color: limegreen;
+}
+
+#close {
+	color: red;
+}
+
+.card .container .row3col1 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 3/4;
+	grid-column: 1/2;
+}
+
+.card .container .row3col2 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 3/4;
+	grid-column: 2/3;
+	font-weight: bold;
+}
+
+.card .container .row4 {
+	justify-self: self-start;
+	align-self: center;
+	grid-row: 4/5;
+	grid-column: 1/3;
+	margin-bottom: 25%;
+}
+
+.card .container .row5 {
+	justify-self: center;
+	align-self: center;
+	grid-row: 5/6;
+	grid-column: 1/3;
+
+	width: 97%;
+	height: 90%;
+	margin-bottom: 5%;
+}
+
+.card .container .row5 button {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	font-family: inherit;
+	font-weight: bolder;
+	background-color: #3651d4;
+	color: white;
+	border-radius: 5px;
+	transition: all 0.3s;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.card .container .row5 button:hover {
+	opacity: 80%;
+}
+
+.main_cont {
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2%;
+	grid-row-gap: 2%;
+}
+
+.create-project {
+	width: 100%;
+	height: 290px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,100 @@
+.right {
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: 0;
+    color: #4169E1;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
+.right img {
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.left {
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.8vw;
+}
+
+.form {
+    padding: 30px 20px;
+    width: 80%;
+}
+
+.form-control {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+    font-size: 1vw;
+}
+
+.form button {
+    margin: 0;
+    position: absolute;
+    background-color: #4c76f3;
+    border: 2px solid #4c76f3;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.3vw;
+    padding: 5px;
+    margin-top: 20px;
+    width: 20%;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.form {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.form-control {
+    display: block;
+    width: 50%;
+    border: 1px solid #a7a6a6;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.input-wrapper {
+    margin: 10px;
+    /*display: grid;*/
+    /*grid-template-columns: 30% 70%;*/
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 30%;
+    margin: 50px 3px 0 30px;
+}

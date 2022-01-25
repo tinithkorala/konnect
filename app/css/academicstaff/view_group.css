@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.timeline {
+    height: 20%;
+    max-width: 100%;
+    margin-left: 5%;
+}
+
+.progress-bar-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    margin-top: 10%;
+}
+
+.progress-bar-container ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.progress-bar-container li:before {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: solid 2px lightgrey;
+    transition: all ease 0.3s;
+}
+
+.progress-bar-container li:hover:before {
+    background: lime;
+}
+
+.progress-bar-container li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.progress-bar-container li .step-inner {
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.progress-bar-container li:hover {
+    color: lime;
+}
+
+/* .progress-bar-container li:after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  border: solid 2px white;
+  border-radius: 50%;
+  margin-top: 40px;
+  box-shadow: 0 2px 13px -1px rgb(0,0,)
+  transitionall ease 0.2s;
+}
+
+.progress-bar-container li:hover:after {
+  background: lime;
+} */
+
+.progress-bar-container .line {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 5%; */
+    background: #eee;
+    height: 5px;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    border-radius: 50px;
+    transition: all ease 0.9s;
+}
+
+/* .progress-bar-container .line-process {
+  content: "";
+  width: 3%;
+  height: 100%;
+  background: lime;
+  background: linear-gradient(to right, lime 0%, #2ea3b7 100%)
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  transition: all ease 0.9s;
+} */
+
+
+.forum {
+    height: 80%;
+    border-top: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*
+chat area */
+.imessage {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    padding: 1rem 1.5rem;
+    height: 90%;
+}
+
+.imessage p {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 75%;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.imessage p::before,
+.imessage p::after {
+    bottom: -0.1rem;
+    content: "";
+    height: 1rem;
+    position: absolute;
+}
+
+p.from-me {
+    align-self: flex-end;
+    background-color: #248bf5;
+    color: #fff;
+}
+
+p.from-me::before {
+    border-bottom-left-radius: 0.8rem 0.7rem;
+    border-right: 1rem solid #248bf5;
+    right: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+
+p.from-me::after {
+    background-color: #fff;
+    border-bottom-left-radius: 0.5rem;
+    right: -40px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+}
+
+p[class^="from-"] {
+    margin: 0.5rem 0;
+    width: fit-content;
+}
+
+p.from-me ~ p.from-me {
+    margin: 0.25rem 0 0;
+}
+
+p.from-me ~ p.from-me:not(:last-child) {
+    margin: 0.25rem 0 0;
+}
+
+p.from-me ~ p.from-me:last-child {
+    margin-bottom: 0.5rem;
+}
+
+p.from-them {
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+}
+
+p.from-them:before {
+    border-bottom-right-radius: 0.8rem 0.7rem;
+    border-left: 1rem solid #e5e5ea;
+    left: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+
+p.from-them::after {
+    background-color: #fff;
+    border-bottom-right-radius: 0.5rem;
+    left: 20px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+}
+
+/* chat box */
+.chat-box {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 1rem;
+}
+
+.enter-chat {
+    width: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.chat-box span {
+    align-self: center;
+}
+
+
+.rightside-1 {
+    width: 20%;
+    text-align: center;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+}
+
+.rightside-1 h3 {
+    margin-top: 5%;
+}
+
+.rightside-2 {
+    width: 20%;
+    text-align: center;
+}
+
+.rightside-2 h3 {
+    margin-top: 5%;
+}

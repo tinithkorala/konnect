@@ -1,0 +1,77 @@
+.body-container {
+    margin: 50px;
+}
+
+h3 {
+    margin: 30px;
+}
+
+.is-invalid {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.error-field {
+    border: solid 1px red !important;
+}
+
+.form-control {
+    display: block;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+.form-con {
+    font-weight: normal;
+    margin: 30px;
+}
+
+.form {
+    font-size: 1rem;
+}
+
+hr {
+    border: solid 1px grey;
+}
+
+.member-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin-right: 5px;
+    width: 30%;
+}
+
+.file-btn {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4169e1;
+    border-color: #4169e1;
+}

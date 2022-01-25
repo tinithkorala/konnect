@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row1{
+    width: 100%;
+    
+    background-color: blue;
+}
+
+#nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+#pt{
+    padding: 4%;
+    font-weight: bold;
+}
+
+#tx{
+    border: 2px solid black;
+    width: 50%;
+    padding: 0.5%;
+}
+
+#tx1{
+    border: 1px solid black;
+    width: 50%;
+    padding: 0.5%;
+    height: 70%;
+     margin-left: 0.5%;
+}
+
+    
+    #tx2{
+        border: 1px solid black;
+        width: 50%;
+        padding: 0.5%;
+        height: 70%;
+        margin-left: -0.6%;
+    
+    }
+
+ #tx3{
+        border: 1px solid black;
+        width: 50%;
+        padding: 3%;
+        height: 9%;
+        margin-left: 0.5%;
+
+    
+    }
+
+.row2{
+    width: 100%;
+    /* height: 25%; */
+    background-color: white;
+  
+
+}
+
+.row2sub1{
+    margin-top: 4%;
+    padding-bottom: 2%;
+    margin-left: 1%;
+}
+
+.row2sub2{
+    
+    padding-bottom: 2%;
+    margin-left: 1%;
+}
+
+.row2sub3{
+    
+    padding-bottom: 2%;
+    margin-left: 1%;
+}
+
+
+
+
+
+
+.row3{
+    width: 100%;
+    /* height: 20%; */
+    margin-bottom: 2%;
+   
+}
+
+
+
+
+#super{
+    margin-left: 4.5%;
+}
+.row4{
+    width: 100%;
+    margin-bottom: 2%;
+   
+}
+
+.row5{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.row6{
+    width: 100%;
+   
+}
+
+
+#btn{
+    background-color: #3651d4;
+    padding: 1%;
+    margin-left: 81%;
+    margin-top: 3%;
+    color: white;
+    
+}
+
+
+
+form {
+    margin: 20px !important;
+    padding: 30px 20px !important;
+}
+
+input {
+    margin: 5px;
+}
+
+.user-card-details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-card-details p {
+    margin-top: 20px;
+}
+
+.create-user-btn {
+    width: 50%;
+}
+
+.create-user-btn:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.create-user-card {
+    max-width: 350px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card {
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    display: block;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-con {
+    margin: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sub-forms {
+    display: none;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+hr {
+    border: solid 1px #80808082;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.is-invalid {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.error-field {
+    border: solid 1px red !important;
+}
+
+.card-user-card{
+margin-left: 2%;
+width: 20%;
+/* border: 2px solid black; */
+border: solid 1px #80808082;
+border-radius: 5px;
+padding: 1%;
+}
+
+img{
+   margin-left: 25%;
+}
+
+.cardset2{
+    display: flex;
+    flex-direction: row;
+}
+
+#w3review{
+    border: 1px solid black;
+    margin-left: 15%;
+}

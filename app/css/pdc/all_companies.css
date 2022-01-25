@@ -1,0 +1,49 @@
+
+.main_cont {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row1 {
+    font-weight: bold;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4%;
+    margin-top: 9px;
+}
+
+#bolt {
+    font-weight: bold;
+}
+
+.row5 button {
+    background-color: #3651d4;
+    color: white;
+    font-weight: bold;
+    padding: 3% 4%;
+    font-family: inherit;
+    margin-top: 10%;
+    margin-left: 55%;
+    font-size: 0.9rem;
+    width: 40%;
+}
+
+
+.mt-10 {
+    margin-top: 10px;
+}

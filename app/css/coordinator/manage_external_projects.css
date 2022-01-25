@@ -1,0 +1,21 @@
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardtitle{
+  font-family: inherit;
+    font-size: 1.3vw;
+    padding-left: 2px;
+    font-weight: bold;
+}
+
+#icon {
+  color: red;
+}
+
+#icon:hover{
+    color: darkred;
+}
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }

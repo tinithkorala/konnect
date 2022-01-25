@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem !important;
+}
+
+.quota-container {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    height: 70%;
+    font-family: inherit;
+    font-size: 1.5vw;
+}
+
+.title {
+    padding: 5%;
+    font-weight: bold;
+}
+
+.content-container {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 40%;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+/* Styles of the select box */
+select {
+    appearance: none;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    background: #fff;
+    flex: 1;
+    padding: 6px 0 0 6px;
+    cursor: pointer;
+    font-family: inherit;
+    color: grey;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 2.5em;
+    line-height: 3;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.select::after {
+    font-family: "Material Icons";
+    content: "\e5c5";
+    font-size: 1rem;
+    position: absolute;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select:hover::after {
+    color: black;
+}
+
+.enter-quota {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    padding: 6px;
+    width: 40%;
+    height: 3em;
+}
+
+.button-section {
+    margin-left: 70%;
+    margin-top: 2px;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 6px;
+    border: none;
+    width: 7vw;
+    height: auto;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+.cancel {
+    border: 2px solid #3651d4;
+    color: #3651d4;
+}
+
+.save {
+    border: 2px solid lime;
+    color: lime;
+}

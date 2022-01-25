@@ -1,0 +1,11 @@
+.upper-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lower-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+  grid-row-gap: 2%;
+}

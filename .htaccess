@@ -1,0 +1,14 @@
+Options -Indexes
+
+RewriteEngine On
+
+#If the url is not a file or directory, re-route to index.php
+RewriteCond %{REQUEST_FILENAME} !-d #if not a directory
+RewriteCond %{REQUEST_FILENAME} !-f #if not a file
+
+#Skip these folders. Basically if these are in the url, don't re-route
+RewriteCond $1 !^(config|core|css|js|fonts)
+
+#Route everything to index.php.
+#Making index.php act as a server.
+RewriteRule ^(.+)$ index.php/$1 [L]

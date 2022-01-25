@@ -1,0 +1,90 @@
+.form-control {
+    display: block;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-con {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.post-button {
+    width: 20%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-button span {
+    margin-right: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body-container {
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('../../images/bg.svg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.notice-container {
+    margin: 50px;
+    width: 80%;
+}
+
+.notice-card {
+    margin: 50px;
+    width: 50%;
+}
+
+.notice-card p {
+    padding: 10px;
+}
+
+.notice-card-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.notification-container {
+    background-color: #4169e17a;
+    width: 20%;
+    padding: 20px;
+}
+
+.notification-container h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.notification-container span {
+    margin-right: 5px;
+}
+
+.notification-card {
+    margin-top: 30px;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

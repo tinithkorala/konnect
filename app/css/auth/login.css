@@ -1,0 +1,93 @@
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+    background-color: #4169E1;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px !important;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    height: 20%;
+    color: #FFFFFF;
+}
+
+.image {
+    width: 60%;
+    height: 45%;
+    float: right;
+    align-self: flex-end;
+}
+
+
+.right {
+    right: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    overflow: hidden;
+    width: 60%;
+    height: 60%;
+    max-width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.container h3 {
+    float: right;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.container a {
+    color: #4169E1;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .split .left {
+        width: 100%;
+        top: 0;
+        order: 1;
+    }
+
+    .split .right {
+
+        width: 100%;
+        bottom: 0;
+        order: 2;
+    }
+}
