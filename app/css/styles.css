@@ -2620,3 +2620,9 @@ td {
     width: 20rem;
   }
 }
+
+/* CUSTOM CSS */
+
+.hide{
+  display:none;
+}

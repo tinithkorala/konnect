@@ -68,7 +68,8 @@ class FormHelpers
      * @param array $errors
      * @return string
      */
-    #[Pure] public static function selectBlock(string $label, string $id, $value, array $options, array $inputAttrs = [], array $wrapperAttrs = [], array $errors = []): string
+    #[Pure] 
+    public static function selectBlock(string $label, string $id, $value, array $options, array $inputAttrs = [], array $wrapperAttrs = [], array $errors = []): string
     {
         $inputAttrs = self::appendErrors($id, $inputAttrs, $errors);
         $inputAttrs = self::processAttributes($inputAttrs);
@@ -96,7 +97,8 @@ class FormHelpers
      * @param array $errors
      * @return string
      */
-    #[Pure] public static function check($label, $id, string $checked = '', array $inputAttrs = [], array $wrapperAttrs = [], array $errors = []): string
+    #[Pure] 
+    public static function check($label, $id, string $checked = '', array $inputAttrs = [], array $wrapperAttrs = [], array $errors = []): string
     {
         $inputAttrs = self::appendErrors($id, $inputAttrs, $errors);
         $wrapperStr = self::processAttributes($wrapperAttrs);
@@ -126,7 +128,8 @@ class FormHelpers
      * @param array $errors
      * @return string
      */
-    #[Pure] public static function textarea($label, $id, $value, array $inputAttributes = [], array $wrapperAttributes = [], array $errors = []): string
+    #[Pure] 
+    public static function textarea($label, $id, $value, array $inputAttributes = [], array $wrapperAttributes = [], array $errors = []): string
     {
         $wrapperString = self::processAttributes($wrapperAttributes);
         $inputAttributes = self::appendErrors($id, $inputAttributes, $errors);
@@ -139,7 +142,8 @@ class FormHelpers
         return $html;
     }
 
-    #[Pure] public static function fileUpload($id, $input = [], $errors = [], $label = ''){
+    #[Pure] 
+    public static function fileUpload($id, $input = [], $errors = [], $label = ''){
         $inputAttributes = self::appendErrors($id, $input, $errors);
         $inputString = self::processAttributes($inputAttributes);
         $errorMessage = array_key_exists($id, $errors) ? $errors[$id] : "";

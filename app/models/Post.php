@@ -35,4 +35,23 @@ class Post extends Model
             $this->runValidator(new RequiredValidator($this, ["field" => $field, "message" => $message]));
         }
     }
+
+    public function getAllPosts() {
+
+        // $posts = Post::selectBuilder('notices', []);
+        // $posts = Post::selectBuilder('user_role', []);
+        // return self::queryParamBuilder($posts);
+       
+        // return self::find($params);
+
+        // $posts = self::selectBuilder('user_role', []);
+        $sql = "SELECT 
+                    `notices`.* , 
+                    `user`.firstName 
+                FROM `notices`
+                JOIN `user` ON `user`.user_id = `notices`.created_by 
+                ORDER BY `notices`.notice_id DESC";
+        $response = Post::executeQuery1($sql);
+        return $response;
+    }
 }

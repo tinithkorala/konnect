@@ -57,6 +57,12 @@ class Model
         if ($db) return $db->query($sql, $params)->getResults();
     }
 
+    public static function executeQuery1($sql)
+    {
+        $db = static::getDB();
+        if ($db) return $db->query($sql)->getResults();
+    }
+
     /**
      * @param array $params
      * @return mixed

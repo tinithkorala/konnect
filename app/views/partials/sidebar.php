@@ -20,7 +20,7 @@ $user = Users::getCurrentUser(); ?>
                     <i class="material-icons-outlined mr-2">
                         <?= $value['icon'] ?>
                     </i>
-                    <div class="link hide"><?= $value['name'] ?></div>
+                    <div class="link"><?= $value['name'] ?></div>
                 </a>
             </li>
         <?php endforeach; ?>
