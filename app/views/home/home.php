@@ -5,7 +5,9 @@ use App\Models\Post;
 use Core\Router;
 
 $user = Users::getCurrentUser();
-$user_type = $user->roles[0];
+$user_types_array = $user->roles;
+
+
 
 $posts = Post::getAllPosts();
 
@@ -30,7 +32,24 @@ $this->start('content');
         <div class="flex-wrap content-center my-5" style="width:800px">
 
             <!-- post create start -->
-            <?php if($user_type == 'admin' || $user_type == 'coordinator'){ ?>
+            <?php 
+
+                $logged_user_visibility = false;
+
+                foreach($user_types_array as $user_types_row) {
+
+                    if($user_types_row == 'admin' || $user_types_row == 'coordinator' ) {
+
+                        $logged_user_visibility = true;
+                        break;
+
+                    }
+
+                }
+            
+                if($logged_user_visibility){
+                
+            ?>
                 <div class="bg-white rounded-lg p-2 shadow-md w-full h-fit my-4">
                     <textarea placeholder="Write something" class="w-full focus:outline-none p-5"></textarea>
                     <div class="w-full flex">
